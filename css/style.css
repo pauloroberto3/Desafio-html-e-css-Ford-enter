@@ -38,3 +38,23 @@ header{
     color: #1351d8 ;
     text-decoration: none;
 }
+
+.footer-contedudo{
+    background-color: #1b357e;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: #f0f0f0;
+    font-size: 2.5vh;
+    font-style: normal;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vh;
+}
+
+.footer-redes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vh;
+}
