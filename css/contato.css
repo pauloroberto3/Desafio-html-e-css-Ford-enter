@@ -25,16 +25,20 @@ header{
     height: 50px;
   }
 
-.header-textos{
+nav{
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-style: normal;
-    display: flex;
     font-size: 2.5vh;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
     gap: 2vh;
 }
 
-.header-textos a {
+nav a {
     color: #1351d8 ;
     text-decoration: none;
 }
