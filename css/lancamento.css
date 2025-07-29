@@ -53,6 +53,94 @@ main {
     flex: 1;
 }
 
+.main-conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10vh;
+}
+
+.main-video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+    margin-top: 6vh;
+}
+
+.main-video h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3vh;
+    color: #1351d8;
+}
+
+.main-video p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2vh;
+    color: #1351d8;
+}
+
+.main-video iframe{
+    width: 100%;
+    height: 50vh;
+    border-radius: 3vh;
+}
+
+.tabela-cards {
+    width: 100%;
+    margin-top: 5vh;
+}
+
+.tabela-cards th {
+    padding: 2vh;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.6vh;
+}
+
+.img-tabela {
+    width: 40vh;
+    height: auto;
+    margin-bottom: 1vh;
+}
+
+.descricao {
+    display: flex;
+    gap: 1vh;
+}
+
+.descricao strong{
+    font-weight: 700;
+    color: #1351d8;
+}
+
+.descricao input[type="checkbox"] {
+    transform: scale(2);
+    cursor: pointer;
+}
+
+.botao-comparar {
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+}
+
+.botao-comparar button {
+    background-color: #1351d8;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 2vh;
+    font-weight: 600;
+    padding: 1.5vh 3vh;
+    border: none;
+    border-radius: 1vh;
+    cursor: pointer;
+}
+
 .footer-contedudo{
     background-color: #1b357e;
     font-family: "Poppins", sans-serif;

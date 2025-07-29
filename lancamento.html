@@ -24,46 +24,62 @@
     </header>
 
     <main>
-            <h1>Conheça o Novo Ranger</h1>
-            <p>O Ford Ranger 2022 chegou com força, tecnologia e robustez para superar qualquer desafio.</p>
-            <iframe 
-                src="https://www.youtube.com/embed/vQsryuNmsL0" 
-                title="Video Ford Ranger" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                allowfullscreen>
-            </iframe>
+        <div class="main-conteudo">
+            <div class="main-video">
+                <h1>Conheça o Novo Ranger</h1>
+                <p>O Ford Ranger 2022 chegou com força, tecnologia e robustez para superar qualquer desafio.</p>
+                <iframe 
+                    src="https://www.youtube.com/embed/vQsryuNmsL0" 
+                    title="Video Ford Ranger" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen>
+                </iframe>
+            </div>
 
-            <table>
-                <thead>
-                  <tr>
-                    <th>Imagem</th>
-                    <th>Modelo</th>
-                    <th>Preço</th>
-                    <th>Comparar</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><img src="./img/XL Cabine.jpg" alt="XL Cabine" width="150"></td>
-                    <td>XL Cabine Simples 2.2 Diesel 4X4 MT 2022</td>
-                    <td>R$ 183.850</td>
-                    <td><input type="checkbox"></td>
-                  </tr>
-                  <tr>
-                    <td><img src="./img/xls 2.2 diesel.jpg" alt="XLS Diesel" width="150"></td>
-                    <td>XLS 2.2 Diesel 4X4 AT 2022</td>
-                    <td>R$ 220.690</td>
-                    <td><input type="checkbox"></td>
-                  </tr>
-                  <tr>
-                    <td><img src="./img/storm.jpg" alt="Storm" width="150"></td>
-                    <td>Storm 3.2 Diesel 4X4 AT 2022</td>
-                    <td>R$ 222.790</td>
-                    <td><input type="checkbox"></td>
-                  </tr>
-                </tbody>
-              </table>
-
+            <div class="main-tabela">
+                <table class="tabela-cards">
+                    <thead>
+                        <tr>
+                            <th>
+                                <img src="./img/XL Cabine.jpg" alt="XL Cabine" class="img-tabela">
+                                <div class="descricao">
+                                    <input type="checkbox" id="bt1">
+                                    <label for="bt1">
+                                        <strong>XL Cabine Simples 2.2 Diesel 4X4 MT 2022</strong><br>
+                                        Preço sugerido: R$ 183.850
+                                    </label>
+                                </div>
+                            </th>
+                            <th>
+                                <img src="./img/xls 2.2 diesel.jpg" alt="XLS Diesel" class="img-tabela">
+                                <div class="descricao">
+                                    <input type="checkbox" id="bt2">
+                                    <label for="bt2">
+                                        <strong>XLS 2.2 Diesel 4X4 AT 2022</strong><br>
+                                        Preço sugerido: R$ 220.690
+                                    </label>
+                                </div>
+                            </th>
+                            <th>
+                                <img src="./img/storm.jpg" alt="Storm" class="img-tabela">
+                                <div class="descricao">
+                                    <input type="checkbox" id="bt3">
+                                    <label for="bt3">
+                                        <strong>Storm 3.2 Diesel 4X4 AT 2022</strong><br>
+                                        Preço sugerido: R$ 222.790
+                                    </label>
+                                </div>
+                            </th>
+                        </tr>
+                    </thead>
+                </table>
+            
+                <div class="botao-comparar">
+                    <button>Comparar Carros</button>
+                </div>
+            </div>
+            
+        </div>
     </main>
     
     <footer>
