@@ -148,6 +148,10 @@ main {
     cursor: pointer;
 }
 
+.botao-comparar button:hover{
+    background-color: #1b357e;
+}
+
 .footer-contedudo{
     background-color: #1b357e;
     font-family: "Poppins", sans-serif;
