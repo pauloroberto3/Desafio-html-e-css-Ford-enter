@@ -47,6 +47,13 @@ nav ul{
 nav a {
     color: #1351d8 ;
     text-decoration: none;
+    padding: 1vh;
+    border-radius: 1vh;
+}
+
+nav a:hover{
+    background-color: #1351d8;
+    color: #f0f0f0;
 }
 
 main {
