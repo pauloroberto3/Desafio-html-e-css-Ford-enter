@@ -24,6 +24,42 @@
     </header>
     
     <main>
+            <div class="main-imagem">
+                <img src="/img/xls 2.2 diesel.jpg" alt="">
+            </div>
+            <div class="main-formulario">
+                <h1>Sobre Você</h1>
+    
+                <form>
+                    <div>
+                        <input type="text" name="nome" placeholder="Digite seu nome completo" required>
+                    </div>
+                    <div>
+                        <input type="email" name="email" placeholder="Digite seu Email" required>
+                    </div>
+                    <div>
+                        <input type="text" name="cpf" placeholder="Digite seu CPF" required>
+                    </div>
+                    <div>
+                        <input type="tel" id="telefone" name="telefone" placeholder="Digite seu Telefone" required>
+                    </div>
+                    <div>
+                        <label for="tipo">Tipo do contato:</label>
+                        <select id="tipo" name="tipo" required>
+                          <option value="">-- Selecione --</option>
+                          <option value="elogio">Elogio</option>
+                          <option value="reclamacao">Reclamação</option>
+                          <option value="solicitacao">Solicitação</option>
+                        </select>
+                    </div>
+                    <div>
+                        <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem aqui..." required></textarea>
+                    </div>
+                    <div>
+                        <button type="submit">Enviar</button>
+                    </div>
+                  </form>    
+            </div>    
     </main>
     
     <footer>

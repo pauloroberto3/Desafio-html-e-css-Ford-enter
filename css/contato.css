@@ -51,6 +51,67 @@ nav a {
 
 main {
     flex: 1;
+    display: flex;
+    justify-content: center;
+    gap: 5vh;
+}
+
+.main-formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2vh;
+    width: 50vh;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #1351d8;
+}
+
+.main-imagem{
+    margin-top: 8vh;
+}
+
+.main-formulario h1 {
+    font-size: 2.5vh;
+}
+
+.main-formulario div {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.main-formulario label {
+    font-size: 2vh;
+    font-weight: 600;
+}
+
+.main-formulario input, select, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 1vh;
+    font-size: 2vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-formulario textarea {
+    min-height: 10vh;
+}
+
+.main-formulario button {
+    width: 100%;
+    background-color: #1351d8;
+    color: white;
+    padding: 2vh;
+    width: 30vh;
+    border: none;
+    border-radius: 1vh;
+    font-size: 2vh;
+    cursor: pointer;
+    font-weight: 600;
 }
 
 .footer-contedudo{
