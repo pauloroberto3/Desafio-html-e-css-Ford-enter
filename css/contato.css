@@ -58,6 +58,18 @@ main {
     min-height: 10vh;
 }
 
+.main-formulario input:hover {
+    background-color: #c7d6f5;
+}
+
+.main-formulario select:hover {
+    background-color: #c7d6f5;
+}
+
+.main-formulario textarea:hover {
+    background-color: #c7d6f5;
+}
+
 .main-formulario button {
     width: 100%;
     background-color: #1351d8;
