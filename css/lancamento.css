@@ -46,34 +46,38 @@ main {
     border-radius: 3vh;
 }
 
-.tabela-cards {
+.main-carros {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     margin-top: 5vh;
 }
 
-.tabela-cards th {
-    padding: 2vh;
-    font-family: "Poppins", sans-serif;
-    font-size: 1.6vh;
-}
-
-.img-tabela {
-    width: 40vh;
-    height: auto;
-    margin-bottom: 1vh;
-}
-
-.descricao {
+.main-carros-informacoes{
     display: flex;
+    align-items:start;
     gap: 1vh;
 }
 
-.descricao strong{
+.main-carros-conteudo{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.6vh;
+    font-weight: 500;
+
+}
+
+.main-carros-imagens {
+    width: 40vh;
+    height: auto;
+}
+
+.texto-destaque{
     font-weight: 700;
     color: #1351d8;
 }
 
-.descricao input[type="checkbox"] {
+.main-checkbox{
     transform: scale(2);
     cursor: pointer;
 }
