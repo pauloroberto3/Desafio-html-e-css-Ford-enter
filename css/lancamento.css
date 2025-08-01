@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
 
 main {
     flex: 1;
@@ -20,30 +15,31 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2vh;
+    gap: 2rem;
     margin-top: 6vh;
 }
 
 .main-video h1{
-    font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 3vh;
+    font-size: 2rem;
     color: #1351d8;
 }
 
 .main-video p{
-    font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 2vh;
-    color: #1351d8;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: #000;
 }
 
 .main-video iframe{
-    width: 150vh;
+    width: 90%;
     height: 70vh;
-    border-radius: 3vh;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 6px 8px 8px rgb(58, 67, 70);
 }
 
 .main-carros {
@@ -61,8 +57,7 @@ main {
 }
 
 .main-carros-conteudo{
-    font-family: "Poppins", sans-serif;
-    font-size: 1.6vh;
+    font-size: 1rem;
     font-weight: 500;
 
 }
