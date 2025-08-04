@@ -79,3 +79,15 @@ main {
 .main-formulario button:hover{
     background-color: #1b357e;
 }
+
+@media (max-width: 768px) {
+    main{
+        align-items:center ;
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .main-formulario{
+        width: auto;
+    }
+}
