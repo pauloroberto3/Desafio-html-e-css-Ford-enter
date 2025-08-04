@@ -5,8 +5,8 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 4rem;
-    margin-bottom: 2rem;
+    justify-content: center;
+    padding: 4rem 2rem;
     gap: 2rem;
 }
 
@@ -22,14 +22,14 @@ main {
 }
 
 main p{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 500;
 }
 
 .texto-main-link{
     border: solid 0.3rem #1351d8;
     border-radius: 1rem;
-    padding: 0.3rem 1rem;
+    padding: 0.1rem 1rem;
     text-decoration: none;
     font-weight: 700;
     color: #1b357e;
@@ -40,3 +40,27 @@ main p{
     background-color: #1b357e;
     color: #f0f0f0;
 }
+
+@media (max-width: 768px) {
+    
+    main {
+        padding: 3rem 1rem;
+    }
+  
+    .main-imagem {
+      max-width: 100%;
+    }
+  
+    main p {
+      font-size: 1.2rem;
+      text-align: center;
+      padding: 0 1rem;
+    }
+  
+    .texto-main-link {
+      display: inline-block;
+      font-size: 1rem;
+      padding: 0.5rem 1rem;
+    }
+}
+  
