@@ -9,6 +9,8 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 4rem 2rem;
+    gap: 5rem;
 }
 
 .main-video{
@@ -46,13 +48,16 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
     width: 100%;
     margin-top: 5vh;
+    gap: 3rem;
 }
 
 .main-carros-informacoes{
     display: flex;
-    align-items:start;
+    align-items: flex-start;
     gap: 1vh;
 }
 
@@ -63,6 +68,7 @@ main {
 }
 
 .main-carros-imagens {
+    width: 100%;
     width: 40vh;
     height: auto;
 }
@@ -98,4 +104,25 @@ main {
 
 .botao-comparar button:hover{
     background-color: #1b357e;
+}
+
+@media (max-width: 768px) {
+
+    .main-video{
+        text-align: center;
+    }
+
+    .main-video iframe{
+        width: 100%;
+        height: 35vh;
+    }
+
+    .main-carros{
+        flex-direction: column;
+    }
+
+    .main-carros-informacoes{
+        align-items:center;
+        gap: 1rem;
+    }
 }
