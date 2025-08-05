@@ -32,7 +32,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-	line-height: 1.5; 
+	line-height: 1; 
     font-family: "Poppins", sans-serif;
 }
 ol, ul {
@@ -145,4 +145,3 @@ footer img{
       height: 2.5rem;
     }
 }
-  

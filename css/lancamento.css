@@ -55,16 +55,15 @@ main {
     gap: 3rem;
 }
 
-.main-carros-informacoes{
-    display: flex;
-    align-items: flex-start;
-    gap: 1vh;
-}
-
 .main-carros-conteudo{
     font-size: 1rem;
     font-weight: 500;
+}
 
+.main-carros-informacoes{
+    display: flex;
+    align-items: center;
+    gap: 1vh;
 }
 
 .main-carros-imagens {
@@ -78,14 +77,12 @@ main {
     color: #1351d8;
 }
 
-.main-checkbox{
+.main-checkbox input[type="checkbox"]{
     transform: scale(2);
     cursor: pointer;
 }
 
 .botao-comparar {
-    display: flex;
-    justify-content: center;
     margin-top: 3vh;
     margin-bottom: 5vh;
 }
@@ -100,6 +97,7 @@ main {
     border: none;
     border-radius: 1vh;
     cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 .botao-comparar button:hover{
