@@ -102,6 +102,7 @@ main {
 
 .botao-comparar button:hover{
     background-color: #1b357e;
+    transform: translateY(-2px);
 }
 
 @media (max-width: 768px) {
